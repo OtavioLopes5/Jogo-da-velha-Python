@@ -1,20 +1,8 @@
-"""
-2) Crie um programa para se jogar o jogo da velha entre 2 competidores: (O, X)
-É apresentado o tabuleiro:
-___________
-___|___|___
-___|___|___
-___|___|___
+__author__ = "Otávio Lopes Fernandes"
+__copyright__ = "Copyright 2007, The Cogent Project"
+__version__ = "1.0"
+__email__ = "otaviofernandes232@gmail.com"
 
-Cada jogador escolhe uma posição fornecendo linha e coluna: Se a posição estiver vazia o símbolo do representante é marcado e o desenho é
-reproduzido com as marcas anteriores para a próxima jogada que deve ser do outro participante.
-O jogo termina quando algum participante conseguir marcar 3 símbolos consecutivos. (horizontal, vertical ou diagonal), ou ainda quando der “VELHA”.
-Após finalizado o jogo, o programa pergunta se o usuário deseja jogar novamente. 
-No término do programa informe o total de partidas, os pontos de cada participante e o total de empates (VELHA).
-Use sua criatividade!!
-
-Nomes: Otavio Lopes Fernandes, Julio santos, João Mateus dos Santos Miranda
-"""
 import time
 import os
 import random
