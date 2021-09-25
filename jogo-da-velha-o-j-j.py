@@ -1,5 +1,4 @@
 __author__ = "Otávio Lopes Fernandes"
-__copyright__ = "Copyright 2007, The Cogent Project"
 __version__ = "1.0"
 __email__ = "otaviofernandes232@gmail.com"
 
