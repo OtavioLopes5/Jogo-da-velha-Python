@@ -199,10 +199,8 @@ def ValidacaoDoResultado(resultado): # valida a matriz para vefificar se o X gan
         return(resultado)
 
 Load()
-contador_de_partidas = 0
-contador_de_empates = 0
-contador_o = 0 
-contador_x = 0
+contador_de_partidas, contador_de_empates = 0, 0
+contador_o, contador_x = 0, 0
 
 print("Bem vindo ao jogo da velha!")
 while True:
