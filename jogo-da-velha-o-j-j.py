@@ -99,7 +99,6 @@ def Op(): #função para realizar o armazenamento de O na matriz
                 elif linhaO == 3:
                     linhaO = 2
                 break
-                
             else:
                 print("Digite apenas números inteiros de 1 á 3")
         except ValueError:
